@@ -1,0 +1,83 @@
+body {
+    background-color:  #080404;
+    max-width: 800px;
+    margin: auto;
+}
+
+/* NAVBAR */
+
+@media (min-width: 768px) {
+    .navbar-brand.abs {
+        position: absolute;
+        width: auto;
+        left: 50%;
+        transform: translateX(-50%);
+        text-align: center;
+    }
+}
+
+.navbar-color-custom {
+    background-color: #211717 !important;
+}
+
+.custom-brand {
+    font-size: 22px;
+    color: #999799;
+}
+
+.nav-link-custom {
+    font-size: 20px;
+    color: #999799
+}
+
+
+/*  home page */
+
+.info-page {
+    display: flex;
+    align-items: stretch;
+}
+
+.container-info-page-texts {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: space-between;
+}
+
+
+.fotomusk {
+    position: absolute;
+    width: auto;
+    height: 80vh;
+    margin-left: 100px;
+    top: 50px;
+}
+
+.biografia {
+    text-align:justify;
+    color: white;
+    width: 350px;
+    height: auto;
+    position: relative;
+    top: 10vh
+}
+.whywefans {
+    text-align: justify;
+    color: white;
+    width: 350px;
+    height: auto;
+    position: relative;
+    top: 10vh;
+}
+
+
+/* Neuralink */
+
+.container-neuralink {
+    text-align: center;
+}
+
+.neuralink-title {
+    color: white;
+}
