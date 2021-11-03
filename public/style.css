@@ -114,6 +114,8 @@ body {
     font-size: 20px;
 }
 
+/* SpaceX */
+
 .spacex-page {
     display: flex;
     align-items: stretch;
@@ -129,6 +131,27 @@ body {
 .spacex-textinfo {
     text-align:left;
     color: white;
-    width: 400px;
+    width: 370px;
+    font-size: 20px;
+}
+
+/* SpaceX */
+
+.tbc-page {
+    display: flex;
+    align-items: stretch;
+}
+
+.fototbc {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 57%;
+}
+
+.tbc-textinfo {
+    text-align:left;
+    color: white;
+    width: 370px;
     font-size: 20px;
 }
