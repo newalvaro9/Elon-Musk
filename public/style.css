@@ -49,7 +49,7 @@ body {
 .fotomusk {
     position: absolute;
     width: auto;
-    height: 70vh;
+    height: 80vh;
     margin-left: 100px;
     top: 50px;
 }
@@ -80,7 +80,7 @@ body {
 }
 
 .neuralink-textinfo {
-    text-align:left;
+    text-align: left;
     color: white;
     width: 400px;
     font-size: 20px;
@@ -88,7 +88,47 @@ body {
 
 .fotoneuralink {
     display: block;
-    margin-left: 20px;
+    margin-left: 35px;
     margin-right: auto;
     width: 75%;
+}
+
+/* Paypal */
+
+.paypal-page {
+    display: flex;
+    align-items: stretch;
+}
+
+.fotopaypal {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 57%;
+}
+
+.paypal-textinfo {
+    text-align:left;
+    color: white;
+    width: 400px;
+    font-size: 20px;
+}
+
+.spacex-page {
+    display: flex;
+    align-items: stretch;
+}
+
+.fotospacex {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 57%;
+}
+
+.spacex-textinfo {
+    text-align:left;
+    color: white;
+    width: 400px;
+    font-size: 20px;
 }
